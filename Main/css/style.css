@@ -30,7 +30,7 @@ nav ul {
   margin: 0;
   padding: 20px;
   justify-content: space-around;
-  flex-direction: row-reverse;
+  flex-direction: row;
   display: flex;
   font-size: 50px;
   
@@ -90,7 +90,9 @@ nav a {
 
 .hero-image {
   width: 100%;
-
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 /* Services section */
@@ -100,6 +102,7 @@ nav a {
   justify-content: space-between;
   margin-bottom: 50px;
   flex-direction: row;
+  font-size: 50px;
 }
 
 .service-card {
@@ -111,17 +114,18 @@ nav a {
 
 .service-card img {
   margin-bottom: 10px;
+ 
 }
 
 .service-card h3 {
-  font-size: 20px;
+  font-size: 50%;
   margin-bottom: 10px;
 }
-
 .service-card p {
   font-size: 16px;
   line-height: 1.5;
   display:flex;
+  font-size: 30px;
 }
 
 /* About section */
@@ -134,7 +138,7 @@ nav a {
 }
 
 .about-text p {
-  font-size: 18px;
+  font-size: 50px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -143,6 +147,7 @@ nav a {
   list-style: none;
   padding: 0;
   margin: 0;
+  font-size: 40px;
 }
 
 .about-text li {
